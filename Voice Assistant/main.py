@@ -14,8 +14,8 @@ def get_date():
 
 def search_web(query):
     search_url = "https://www.googleapis.com/customsearch/v1"
-    api_key = "AIzaSyBwbxMFUGqtNEzk1D6zGgUYRqy7FLq0UDg"
-    cx = "817bec7b8feb544bc"
+    api_key = "YOUR_API_KEY" # removed api key
+    cx = "YOUR_CUSTOM_SEARCH_ENGINE_ID" # removed search engine id
     params = {"q": query, "key": api_key, "cx": cx}
 
     try:
